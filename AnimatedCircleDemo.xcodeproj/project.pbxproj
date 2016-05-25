@@ -15,6 +15,7 @@
 		F7F03AF01CF5A67100AB80C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F03AEE1CF5A67100AB80C0 /* LaunchScreen.storyboard */; };
 		F7F03AFB1CF5A67100AB80C0 /* AnimatedCircleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03AFA1CF5A67100AB80C0 /* AnimatedCircleDemoTests.m */; };
 		F7F03B061CF5A67100AB80C0 /* AnimatedCircleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03B051CF5A67100AB80C0 /* AnimatedCircleDemoUITests.m */; };
+		F7F03B151CF5AEB800AB80C0 /* GraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03B141CF5AEB800AB80C0 /* GraphicView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F7F03B011CF5A67100AB80C0 /* AnimatedCircleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCircleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F03B051CF5A67100AB80C0 /* AnimatedCircleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCircleDemoUITests.m; sourceTree = "<group>"; };
 		F7F03B071CF5A67100AB80C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F03B131CF5AEB800AB80C0 /* GraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicView.h; sourceTree = "<group>"; };
+		F7F03B141CF5AEB800AB80C0 /* GraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F7F03AE41CF5A67100AB80C0 /* AppDelegate.m */,
 				F7F03AE61CF5A67100AB80C0 /* ViewController.h */,
 				F7F03AE71CF5A67100AB80C0 /* ViewController.m */,
+				F7F03B131CF5AEB800AB80C0 /* GraphicView.h */,
+				F7F03B141CF5AEB800AB80C0 /* GraphicView.m */,
 				F7F03AE91CF5A67100AB80C0 /* Main.storyboard */,
 				F7F03AEC1CF5A67100AB80C0 /* Assets.xcassets */,
 				F7F03AEE1CF5A67100AB80C0 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F03AE81CF5A67100AB80C0 /* ViewController.m in Sources */,
+				F7F03B151CF5AEB800AB80C0 /* GraphicView.m in Sources */,
 				F7F03AE51CF5A67100AB80C0 /* AppDelegate.m in Sources */,
 				F7F03AE21CF5A67100AB80C0 /* main.m in Sources */,
 			);
@@ -413,7 +419,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimatedCircleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = winchannel.AnimatedCircleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +432,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimatedCircleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = winchannel.AnimatedCircleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +506,7 @@
 				F7F03B0C1CF5A67100AB80C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7F03B0D1CF5A67100AB80C0 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				F7F03B0F1CF5A67100AB80C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7F03B101CF5A67100AB80C0 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				F7F03B121CF5A67100AB80C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
