@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7B232111CFC39EB00B27208 /* PanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B232101CFC39EB00B27208 /* PanelView.m */; };
+		F7B232141CFC3EE400B27208 /* PathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B232131CFC3EE400B27208 /* PathModel.m */; };
 		F7F03AE21CF5A67100AB80C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03AE11CF5A67100AB80C0 /* main.m */; };
 		F7F03AE51CF5A67100AB80C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03AE41CF5A67100AB80C0 /* AppDelegate.m */; };
 		F7F03AE81CF5A67100AB80C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03AE71CF5A67100AB80C0 /* ViewController.m */; };
@@ -15,7 +17,6 @@
 		F7F03AF01CF5A67100AB80C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F03AEE1CF5A67100AB80C0 /* LaunchScreen.storyboard */; };
 		F7F03AFB1CF5A67100AB80C0 /* AnimatedCircleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03AFA1CF5A67100AB80C0 /* AnimatedCircleDemoTests.m */; };
 		F7F03B061CF5A67100AB80C0 /* AnimatedCircleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03B051CF5A67100AB80C0 /* AnimatedCircleDemoUITests.m */; };
-		F7F03B151CF5AEB800AB80C0 /* GraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F03B141CF5AEB800AB80C0 /* GraphicView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7B2320F1CFC39EB00B27208 /* PanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelView.h; sourceTree = "<group>"; };
+		F7B232101CFC39EB00B27208 /* PanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelView.m; sourceTree = "<group>"; };
+		F7B232121CFC3EE400B27208 /* PathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathModel.h; sourceTree = "<group>"; };
+		F7B232131CFC3EE400B27208 /* PathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathModel.m; sourceTree = "<group>"; };
 		F7F03ADD1CF5A67000AB80C0 /* AnimatedCircleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedCircleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F03AE11CF5A67100AB80C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7F03AE31CF5A67100AB80C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +57,6 @@
 		F7F03B011CF5A67100AB80C0 /* AnimatedCircleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCircleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F03B051CF5A67100AB80C0 /* AnimatedCircleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCircleDemoUITests.m; sourceTree = "<group>"; };
 		F7F03B071CF5A67100AB80C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7F03B131CF5AEB800AB80C0 /* GraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicView.h; sourceTree = "<group>"; };
-		F7F03B141CF5AEB800AB80C0 /* GraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +111,10 @@
 				F7F03AE41CF5A67100AB80C0 /* AppDelegate.m */,
 				F7F03AE61CF5A67100AB80C0 /* ViewController.h */,
 				F7F03AE71CF5A67100AB80C0 /* ViewController.m */,
-				F7F03B131CF5AEB800AB80C0 /* GraphicView.h */,
-				F7F03B141CF5AEB800AB80C0 /* GraphicView.m */,
+				F7B2320F1CFC39EB00B27208 /* PanelView.h */,
+				F7B232101CFC39EB00B27208 /* PanelView.m */,
+				F7B232121CFC3EE400B27208 /* PathModel.h */,
+				F7B232131CFC3EE400B27208 /* PathModel.m */,
 				F7F03AE91CF5A67100AB80C0 /* Main.storyboard */,
 				F7F03AEC1CF5A67100AB80C0 /* Assets.xcassets */,
 				F7F03AEE1CF5A67100AB80C0 /* LaunchScreen.storyboard */,
@@ -212,6 +217,7 @@
 				TargetAttributes = {
 					F7F03ADC1CF5A67000AB80C0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7WW69WRWC7;
 					};
 					F7F03AF51CF5A67100AB80C0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -275,8 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B232141CFC3EE400B27208 /* PathModel.m in Sources */,
 				F7F03AE81CF5A67100AB80C0 /* ViewController.m in Sources */,
-				F7F03B151CF5AEB800AB80C0 /* GraphicView.m in Sources */,
+				F7B232111CFC39EB00B27208 /* PanelView.m in Sources */,
 				F7F03AE51CF5A67100AB80C0 /* AppDelegate.m in Sources */,
 				F7F03AE21CF5A67100AB80C0 /* main.m in Sources */,
 			);
@@ -420,11 +427,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimatedCircleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = winchannel.AnimatedCircleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -433,11 +442,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimatedCircleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = winchannel.AnimatedCircleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
